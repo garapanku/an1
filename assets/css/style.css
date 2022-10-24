@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: local('Montserrat Regular'), local('Montserrat-Regular'), url('../fonts/montserrat-400.woff2') format('woff2'), url('../fonts/montserrat-400.woff') format('woff')
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url('https://cdn.jsdelivr.net/gh/garapanku/an1@main/assets/fonts/montserrat-400.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/garapanku/an1@main/assets/fonts/montserrat-400.woff') format('woff')
 }
 
 @font-face {
@@ -11,7 +11,7 @@
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: local('Montserrat Bold'), local('Montserrat-Bold'), url('../fonts/montserrat-700.woff2') format('woff2'), url('../fonts/montserrat-700.woff') format('woff')
+    src: local('Montserrat Bold'), local('Montserrat-Bold'), url('https://cdn.jsdelivr.net/gh/garapanku/an1@main/assets/fonts/montserrat-700.woff2') format('woff2'), url('https://cdn.jsdelivr.net/gh/garapanku/an1@main/assets/fonts/montserrat-700.woff') format('woff')
 }
 
 .load * {
@@ -368,7 +368,7 @@ body {
 @media (min-width:768px) {
     body {
         background-color: #f4f5f3;
-        background-image: url(../images/bg.svg);
+        background-image: url(https://cdn.jsdelivr.net/gh/garapanku/an1@main/assehttps://cdn.jsdelivr.net/gh/garapanku/an1@main/assets/images/bg.svg);
         background-position: 50% 5rem;
         background-repeat: no-repeat;
         background-size: 281rem auto
@@ -1788,7 +1788,7 @@ a.lang>span {
 }
 
 .main-head {
-    background-image: url(../images/head-bg.jpg);
+    background-image: url(https://cdn.jsdelivr.net/gh/garapanku/an1@main/assets/images/head-bg.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: auto 100%;
@@ -1830,7 +1830,7 @@ a.lang>span {
     }
 
     .main-head {
-        background-image: url(../images/head-bg-min.jpg)
+        background-image: url(https://cdn.jsdelivr.net/gh/garapanku/an1@main/assets/images/head-bg-min.jpg)
     }
 
     .main-head .btn-orange {
@@ -1849,7 +1849,7 @@ a.lang>span {
 
 @media (max-width:576px) {
     .main-head {
-        background-image: url(../images/head-bg-min2.jpg);
+        background-image: url(https://cdn.jsdelivr.net/gh/garapanku/an1@main/assets/images/head-bg-min2.jpg);
         background-position: 30% 50%
     }
 }
@@ -1913,7 +1913,7 @@ a.lang>span {
     position: relative;
     height: 1rem;
     width: 100%;
-    background-image: url(../images/sep.svg);
+    background-image: url(https://cdn.jsdelivr.net/gh/garapanku/an1@main/assets/images/sep.svg);
     background-position: 0 50%;
     background-repeat: repeat-x;
     background-size: 3rem auto
